@@ -1,0 +1,104 @@
+/*.App {*/
+/*    text-align: center;*/
+/*    padding-left: 38px;*/
+/*}*/
+
+/*.inCircle{*/
+/*    width: 44px;*/
+/*    height: 44px;*/
+/*    border: 1px solid black;*/
+/*    border-radius: 50%;*/
+/*    line-height: 10px;*/
+/*    background: aliceblue;*/
+/*    background: rgba(0,0,0,0);*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.btn {*/
+/*    background-color: #f6fb38;*/
+/*    background-image: linear-gradient(45deg, #fb4637 0%, #a56ede 55%, #fb4637 90%);*/
+/*    background-position: 100% 0;*/
+/*    background-size: 200% 200%;*/
+/*    color: white;*/
+/*    border-radius: 50px;*/
+/*    padding: 15px 85px;*/
+/*    font-family: 'Nunito', sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-weight: 200;*/
+/*    text-decoration: none;*/
+/*    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);*/
+/*    transition: all 0.5s ease;*/
+/*    outline: none;*/
+/*    border: 1px solid rgba(255,255,255,0.3);*/
+/*    font-size: 18px;*/
+/*    font-weight: bold;*/
+/*    text-transform: uppercase;*/
+
+/*}*/
+/*.btn:hover{*/
+/*    box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);*/
+/*    background-position: 0 0;*/
+/*}*/
+/*.btnBlock{*/
+/*    margin: -112px 93px 0px 0px;*/
+/*    color: aliceblue;*/
+/*}*/
+/*.circle{*/
+/*    margin-top: 253px;*/
+/*    display: flex;*/
+/*}*/
+/*body{*/
+/*    background-image: url(/src/components/img/bgfon.png);*/
+/*    background-size: 60%;*/
+/*}*/
+.root{
+    height: 1075px;
+    background-image: url(img/bgfon.png);
+}
+.app{
+    position: relative;
+}
+.circle{
+    width: 422px;
+    display: flex;
+    position: absolute;
+    top: 103%;
+    left: 5%;
+    font-size: 28px;
+    font-weight: bold;
+}
+.inCircle{
+    width: 83px;
+    height: 82px;
+    border-radius: 50%;
+    text-align: center;
+}
+.btnBlock{
+    position: absolute;
+    top: 90%;
+    right: 3%;
+}
+.btn{
+    font-size: 30px;
+    padding: 32px 110px;
+    border-radius: 50px;
+    background-color: #fb2f73;
+    background-image: linear-gradient(45deg, #de5a5f 0%, #d652de 55%, #a56ede 90%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn:hover{
+    box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
